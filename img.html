@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        .header {
+            overflow: hidden;
+            background-color: black;
+            padding: 20px 10px;
+            box-shadow: 1px 1px 1px pink,
+                        0 0 20px pink,
+                        0 0 30px pink,
+                        0 0 40px pink;
+
+        }
+        .header a {
+            float: left;
+            color: rgb(250, 250, 250);
+            text-shadow: 1px 1px 1px pink,
+                        0 0 10px rgb(255, 74, 104),
+                        0 0 20px rgb(255, 74, 104);
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 25px;
+            border-radius: 4px;
+        }
+        .header a.logo {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header-dir a:hover{
+            background-color: #ffcbe9;
+            color: black;
+            justify-content: space-between;
+        }
+        .header a.active {
+            background-color: rgb(224, 113, 131);
+            box-shadow: 1px 1px 1px white,
+                        0 0 20px pink
+                        0 0 30px rgb(255, 163, 178);
+            color: white;
+        }
+        .header-dir {
+            float: right;
+        }
+        img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 5%;
+            margin-left: 40%;
+            width: 500px;
+            box-shadow: 1px 1px 1px pink,
+                          0 0 10px pink,
+                          0 0 20px rgb(224, 113, 131);
+        }
+        h1 {
+            color: rgb(250, 250, 250);
+            text-shadow: 1px 1px 1px pink,
+                        0 0 10px rgb(255, 74, 104),
+                        0 0 20px rgb(255, 74, 104);
+            margin-left: 900px;
+            margin-top: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a class="logo">Aula de Front-End</a>
+        <div class="header-dir">
+            <a href="index.html">Inicio</a>
+            <a class="active">Imagens</a>
+            <a>???</a>
+        </div>
+    </div>
+    <h1 href="https://www.youtube.com/watch?v=gQlMMD8auMs">BLACKPINK</h1>
+    <div>
+        <img src="./img/bp.jpeg">
+    </div>
+</body>
+</html>
